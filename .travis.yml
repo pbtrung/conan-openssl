@@ -7,7 +7,7 @@ env:
      - CONAN_USERNAME: "trungpham"
      - CONAN_LOGIN_USERNAME: "trungpham"
      - CONAN_CHANNEL: "stable"
-     - CONAN_UPLOAD: "https://api.bintray.com/trungpham/conan"
+     - CONAN_UPLOAD: "https://api.bintray.com/conan/trungpham/conan"
      - CONAN_STABLE_BRANCH_PATTERN: "release/*"
      - CONAN_TOTAL_PAGES: 2
      - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1 # Will only upload when the branch matches "release/*"
