@@ -88,8 +88,6 @@ class OpenSSLConan(ConanFile):
             config_options_string += ' --with-zlib-include="%s"' % include_path
             config_options_string += ' --with-zlib-lib="%s"' % lib_path
 
-            tools.replace_in_file("./openssl-%s/Configure" % self.version, "::-lefence::", "::")
-            tools.replace_in_file("./openssl-%s/Configure" % self.version, "::-lefence ", "::")
             self.output.info("=====> Options: %s" % config_options_string)
 
         for option_name in self.options.values.fields:
